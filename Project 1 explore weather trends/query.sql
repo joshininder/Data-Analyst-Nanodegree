@@ -1,5 +1,5 @@
 SELECT city_data.year, 
-       city_data.avg_temp   "City Avgerage", 
+       city_data.avg_temp   "City Average", 
        global_data.avg_temp "Global Average" 
 FROM   city_data 
        INNER JOIN global_data 
